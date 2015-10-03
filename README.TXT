@@ -1,3 +1,5 @@
+this is a fork of https://github.com/bkleinen/CPPKoans
+
 C++ Koans
 
 ABOUT
