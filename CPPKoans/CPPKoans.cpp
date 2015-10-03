@@ -26,24 +26,20 @@ using namespace std;
  * These are C++
  */
 
-int main() {
-	cout << "Running CPP Koans. No further output should be produced." << endl;
-	try {
-		AboutControlStructures::meditate();
-		AboutDataTypes::meditate();
-		AboutErrorHandling::meditate();
-	    AboutPointers::meditate();
-		AboutClasses::meditate();
-		AboutArrays::meditate();
-		AboutStrings::meditate();
-		AboutFunctionCalls::meditate();
-		AboutAssert::meditate();
-		AboutBitwiseOperators::meditate();
-		AboutUserDefinedTypes::meditate();
-	} catch (const StopMeditating &e) {
-		cout << "catched StopMeditating." << endl;
-	}
-//	AboutVectors::meditate();
-//	AboutStdInAndOut::meditate();
+int main()
+{
+    cout << "Running CPP Koans. No further output should be produced." << endl;
+    try
+    {
+        AboutAssert::meditate();
+        AboutFunctionCalls::meditate();
+        AboutStrings::meditate();
+    }
+    catch (const StopMeditating &e)
+    {
+        cout << "catched StopMeditating." << endl;
+    }
+    getchar();
+    //	AboutVectors::meditate();
+    //	AboutStdInAndOut::meditate();
 }
-
